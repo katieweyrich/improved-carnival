@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <head>
+    <title>Help</title>
+    <link rel="icon" type="image/x-icon" href="banana.png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+
+body {font-family: Copperplate, Courier New, Courier New;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+</head>
+<body>
+
+<h3> <p style="font-family:Copperplate; font-size:30px; color: #black">We Care About Your Issues!</p></h3>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname"><p style="font-family:Copperplate">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your Name.." style="font-family:Courier New">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name.."  style="font-family:Courier New">
+
+    <label for="country">Fruit You Chose</label>
+    <select id="country" name="country">
+      <option>Apple</option>
+      <option>Banana</option>
+      <option>Peach</option>
+      <option>Strawberry</option>
+      <option>Watermelon</option>
+    </select>
+
+    <label for="subject">Tell Us What Happened</label>
+    <textarea id="subject" name="subject" placeholder="Write something.."  style="font-family:Courier New" style="height:200px"></textarea>
+
+    <button><a href="toobad.html">Submit</a></button>
+  </form>
+</div>
+
+</body>
+</html>
